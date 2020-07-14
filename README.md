@@ -2,9 +2,17 @@
 
 pylair is a Python library used to interact with the Lair 2.0 API
 
+## Author ##
+Original Author: Dan Kottmann 
+Original Project: [lair-framework](https://github.com/lair-framework/pylair)
+
+This repository is a fork intended to bring this project in line with Python3 and add any necessary updates henceforth.
+
+All original credit should be given to Dan Kottmann
+
 ## Installation ##
 
-1. Download the binary distribution from [here](https://github.com/lair-framework/pylair/releases/latest).
+1. Download the binary distribution from [here](https://github.com/x-a-n-d-e-r-k/pylair/releases/latest).
 2. Install it with pip:
 
 ```
@@ -35,9 +43,9 @@ def main():
 
     # Inspect the response
     if res['status'] == 'Error':
-        print "Error: " + res['message']
+        print("Error: " + res['message'])
     else:
-        print "Success!"
+        print("Success!")
 
 if __name__ == '__main__':
     main()
@@ -65,10 +73,10 @@ def main():
 
     # Inspect the response. A 'status' key indicates failure
     if 'status' in res:
-        print "Error: " + res['message']
+        print("Error: " + res['message'])
         return
     else:
-        print "Success!"
+        print("Success!")
 
     # Do something with 'res' here
 

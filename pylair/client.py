@@ -3,7 +3,7 @@ from requests.auth import HTTPBasicAuth
 from warnings import filterwarnings
 import json
 
-VERSION = "1.0"
+VERSION = "2.0"
 
 _api = '/api/projects/'
 
