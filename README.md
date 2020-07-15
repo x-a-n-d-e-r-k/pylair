@@ -3,7 +3,7 @@
 pylair is a Python library used to interact with the Lair 2.0 API
 
 ## Author ##
-Original Author: Dan Kottmann 
+Original Author: Dan Kottmann  
 Original Project: [lair-framework](https://github.com/lair-framework/pylair)
 
 This repository is a fork intended to bring this project in line with Python3 and add any necessary updates henceforth.
